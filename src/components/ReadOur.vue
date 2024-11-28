@@ -17,7 +17,7 @@ import Button from './Button.vue';
               Jan 19,2021
               <h2 class="text-3xl pt-5 pb-8 "> Today’s best design trends for digital products</h2>
 
-              <Button/>
+              <Button title="Read More " />
             </div>
           </div>
 
@@ -27,7 +27,7 @@ import Button from './Button.vue';
               Jan 19,2021
               <h2 class="text-3xl pt-5 pb-8 "> Today’s best design trends for digital products</h2>
 
-                <Button/>
+                <Button title="Read More "  />
             </div>
           </div>
         </div>

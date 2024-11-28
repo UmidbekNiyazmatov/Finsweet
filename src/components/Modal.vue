@@ -58,7 +58,7 @@ watch(
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    max-width: 400px;
+    max-width: 1000px;
     width: 100%;
     position: relative;
 }
@@ -70,5 +70,6 @@ watch(
     position: absolute;
     top: 10px;
     right: 10px;
+    padding: 20px;
 }
 </style>

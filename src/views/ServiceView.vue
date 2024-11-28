@@ -25,9 +25,9 @@ import Button from '@/components/Button.vue';
 
     </div>
     <div class=" flex justify-center items-center w-3/6 " >
-    <div class="" >
+    <div class=" " >
       <div class="pt-5 pb-5 " >Technical support</div>
-      <Button title="Development" />    
+      <Button    title="Development"  > </Button>    
       <div class="pt-5">AWS/Azure </div>    
       <div class="pt-5">Consulting</div>    
       <div class="pt-5">Information Technology</div>    
@@ -57,7 +57,7 @@ import Button from '@/components/Button.vue';
             </template>
         </ServiceSlots>
 </div>
-
+<div class="bg-softCyan" >
 <div class="container" >
         <ServiceSlots
             title="Technical Support"
@@ -74,6 +74,7 @@ import Button from '@/components/Button.vue';
             </div>
             </template>
         </ServiceSlots>
+</div>
 </div>
 
 <div class="container" >
@@ -93,8 +94,8 @@ import Button from '@/components/Button.vue';
             </template>
         </ServiceSlots>
 </div>
-
-<div class="container" >
+<div class="bg-ourServices">
+<div  class="container" >
         <ServiceSlots
             title="Technical Support"
             h1="Best in class tech support for your company. We become your tech backbone "
@@ -110,6 +111,7 @@ import Button from '@/components/Button.vue';
             </div>
             </template>
         </ServiceSlots>
+</div>
 </div>
 
 <div class="container  " >

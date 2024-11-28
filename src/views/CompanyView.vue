@@ -86,8 +86,14 @@ import OurExpertise from '@/components/OurExpertise.vue';
                 </div>
             </div>
         </div>
-        <div class="w-full pt-24 " >
-            <img src="/public/company/Logo Bar.png" alt="" width="100%" >
+        <div class="w-full flex gap-24 mt-24  bg-neutral-100 " >
+            <img src="/public/Logo1.png" alt="">
+                <img src="/public/Logo2.png" alt="">
+                <img src="/public/Logo3.png" alt="">
+                <img src="/public/Logo4.png" alt="">
+                <img src="/public/Logo5.png" alt="">
+           
+            
         </div>
     </div>
 
@@ -139,7 +145,7 @@ import OurExpertise from '@/components/OurExpertise.vue';
         </div>
     </div>
     
-    <NEWSLETTER class=" pt-0" />
+    <NEWSLETTER  />
 
 </template>
 

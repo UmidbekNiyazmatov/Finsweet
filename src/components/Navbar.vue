@@ -13,7 +13,7 @@
           <li><router-link to="/blog">Blog</router-link></li>
           <li><router-link to="/contact">Contact us</router-link></li>
 
-          <button class="nav-btn" @click="openModal" >
+          <button class="nav-btn"  >
             Clone project
             <img src="/public/navbar/arrow.svg" alt="arrow" />
           </button>
@@ -21,28 +21,12 @@
       </div>
     </div>
 
-    <Modal :isOpen="isOpenModal" @close="closeModal" > 
-      <h2>hI</h2>
-    </Modal>
+    
 
   </nav>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import Modal from './Modal.vue';
-
-
-const isOpenModal = ref(false)
-
-const openModal = () => {
-  isOpenModal.value = true;
-};
-
-const closeModal = () => {
-  isOpenModal.value = false
-}
-
 
 </script>
 

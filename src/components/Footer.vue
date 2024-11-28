@@ -1,4 +1,21 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import Modal from './Modal.vue';
+import Button from './Button.vue';
+
+
+const isOpenModal = ref(false)
+
+const openModal = () => {
+  isOpenModal.value = true;
+};
+
+const closeModal = () => {
+  isOpenModal.value = false
+}
+
+
+</script>
 
 <template>
 <div class="container ">
@@ -23,10 +40,10 @@
     <div>
       <b>Navigation</b>
       <ul>
-        <li>Home</li>
-        <li>Service</li>
-        <li>Company</li>
-        <li>Career</li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/service">Service</router-link></li>
+        <li><router-link to="/company">Company</router-link></li>
+        <li><router-link to="/career">Career</router-link></li>
         <li>News</li>
       </ul>
     </div>
@@ -63,15 +80,15 @@
     India, &52050
   </p>
 
-  <div class="flex justify-end  items-center w-full pt-5 gap-3  ">
+  <button class="flex justify-end  items-center w-full pt-5 gap-3  " @click="openModal">
     <span>
       <img src="/public/section/Shapes Contact.png" alt="" class=" ">
     </span>
-    contact Us
+    Contact Us
     <span>
       <img src="/public/section/arrow2.png" alt="">
     </span>
-  </div>
+  </button>
 </div>
 
 
@@ -86,14 +103,55 @@
     <span>©2021 Finsweet </span>
   </div>
     <div class="flex justify-end gap-8 w-full " >
+      <img src="/public/footer/Vector.png" alt="">
+      <img src="/public/footer/Negative.png" alt="">
       <img src="/public/section/Group.png" alt="">
-      <img src="/public/section/Group.png" alt="">
-      <img src="/public/section/Group.png" alt="">
-      <img src="/public/section/Group.png" alt="">
+      <img src="/public/footer/Group.png" alt="">
     </div>
   </div>
 </div>
 </div>
+
+<Modal :isOpen="isOpenModal" @close="closeModal" > 
+  <div class=" px-40 py-20 w-full">
+           
+            <h1 class="text-5xl pt-5 pb-8 ">
+                Have a Question ? <br>
+                Let’s Get in Touch with us 👋
+            </h1>
+            <p>
+                Fill up the Form and ou team will get back to within 24 hrs
+            </p>
+            <div class=" flex-col pt-10 pb-10  ">
+                <div class="pt-5">
+                    <div>Name</div>
+                    <input type="text" class=" w-full pb-1 border-2 border-white border-b-neutral-300"
+                        placeholder="Paresh Srichandan">
+                </div>
+                <div class="pt-5">
+                    <div>E-mail</div>
+                    <input type="text" class=" w-full  pb-1 border-2 border-white  border-b-neutral-300"
+                        placeholder="Paresh@pixeto.com">
+                </div>
+                <div class="pt-5">
+                    <div>Subject</div>
+                    <input type="text" class=" w-full  pb-1 border-2 border-white  border-b-neutral-300"
+                        placeholder="For web design work Enquire ">
+                </div>
+                <div class="pt-5">
+                    <div>Messege</div>
+                    <input type="text" class=" w-full  pb-1 border-2 border-white  border-b-neutral-300"
+                        placeholder="Type your Messege">
+                </div>
+            </div>
+            <button class="flex  bg-blue-600 mt-10  ">
+                <span><img src="/public/section/Shapes (3).png" alt=""></span>
+                <div class="flex items-center gap-3 text-white  pt-5 pb-5 pr-5 "> Request A Quote
+                    <span><img src="/public/services/right.png" alt="" class=""></span>
+                </div>
+            </button>
+        </div>
+</Modal>
 
 </template>
 

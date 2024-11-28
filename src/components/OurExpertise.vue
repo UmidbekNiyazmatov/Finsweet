@@ -6,14 +6,14 @@
 
       <div class="flex  items-center  pt-28 pb-28   ">
 
-        <div class="w-3/6 pr-22  ">
-
+        <div class="w-3/6 pr-24  ">
+          <div class="pb-5" >OUR EXPERTISE</div>
           <h1 class=" text-5xl">
             We want to get local identification in every corner of the world
             in this era of global citizenship
           </h1>
 
-          <p class="w-5/6  mt-10 ">
+          <p class="w-5/6  pt-10 ">
             Through True Rich Attended does no end it his mother since real had half every
             him case in packages enquire we up
             ecstatic unsatiable saw his giving Remain expense you position concluded.
@@ -44,11 +44,11 @@
 
             <div class="flex  mt-3  pt-7 pb-7 w-3/4 bg-white  ">
               <div class=" ml-10 ">
-                <img src="/public/section/Group 1749.png" alt="">
+                <img src="/public/section/Group 1755.png" alt="">
               </div>
               <div class="w-3/5 ml-5">
                 <b>
-                  On Time Delivery
+                  Best Quality
                 </b>
                 <p>Through True Rich Attended does no end it
                   his mother since real had half every him.
@@ -58,11 +58,11 @@
 
             <div class="flex  mt-3   pt-7 pb-7 w-3/4 bg-white  ">
               <div class=" ml-10 ">
-                <img src="/public/section/Group 1749.png" alt="">
+                <img src="/public/section/Group 1855.png" alt="">
               </div>
               <div class="w-3/5 ml-5">
                 <b>
-                  On Time Delivery
+                  Support Assist
                 </b>
                 <p>Through True Rich Attended does no end it
                   his mother since real had half every him.

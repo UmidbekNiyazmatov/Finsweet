@@ -12,19 +12,19 @@ import Button from '@/components/Button.vue';
       <div class="header-card">
         <div class="header__left">
           <div class="mini-card"></div>
-          <h1>Transform Your Idea Into Reality with Finsweet</h1>
+          <h1>Transform Your Idea <br> Into Reality with <br> Finsweet</h1>
           <p>
             The entire Finsweet team knows what's good with Webflow and<br />
             you can too with 1 week and a good attitude.
           </p>
-          <button>
-            <span class="shapes">
-              <img src="/public/header/svg/shapes.svg" alt="shapes" />
-            </span>
-            Request Quote
-            <img src="/public/navbar/arrow.svg" alt="arrow" class="arrow" />
-          </button>
-        </div>
+        
+          <button class="flex  bg-blue-600 mt-10  " >
+        <span><img src="/public/section/Shapes (3).png" alt=""></span>
+        <div class="flex items-center gap-3 text-white  pt-5 pb-5 pr-5 " > Request A Quote 
+        <span><img src="/public/services/right.png" alt="" class=""  ></span>
+      </div>
+      </button>
+    </div>
         <div class="header__right">
           <img src="/public/header/header-image.png" alt="header-image" />
         </div>
@@ -61,10 +61,11 @@ import Button from '@/components/Button.vue';
 
   <div class=" container ">
     <div class=" mt-24 mb-24 ">
-      <div class=" flex  mt-14 mb-14   ">
-
+      <div class="py-5" >ABOUT US</div>
+      <div class=" flex   mb-14   ">
+        
         <dir class="w-full ">
-
+          
           <h2 class=" text-5xl  w-full ">
             The company leads entire webdesign process from concept to delivery.
           </h2>
@@ -74,7 +75,7 @@ import Button from '@/components/Button.vue';
           <h3 class="text-3xl ">
             The Era Of Technology.
           </h3>
-          <p class="text-lg">
+          <p class="text-lg pt-5">
             Through True Rich Attended does no end it his mother since real had half
             every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position
             concluded.
@@ -107,7 +108,7 @@ import Button from '@/components/Button.vue';
           </p>
         </div>
 
-        <div class=" ">
+        <div >
           <span class="text-3xl"> 100+</span>
           <img src="/public/section/Shapes.png" alt="" class="w-14">
 
@@ -115,7 +116,7 @@ import Button from '@/components/Button.vue';
             Project Delivered
           </p>
         </div>
-        <div class=" ">
+        <div>
           <span class="text-3xl"> 950+</span>
           <img src="/public/section/Shapes.png" alt="" class="w-14">
 
@@ -124,7 +125,7 @@ import Button from '@/components/Button.vue';
           </p>
         </div>
 
-        <div class=" ">
+        <div >
           <span class="text-3xl"> 10yrs</span>
           <img src="/public/section/Shapes.png" alt="" class="w-14">
 
@@ -150,19 +151,18 @@ import Button from '@/components/Button.vue';
 
   <div class=" bg-ourServices ">
     <div class="container ">
-
+      
       <div class="pt-40">
+        <div class="pb-5" >OUR SERVICES</div>
         <h1 class="text-6xl w-3/5 ">We build software solutions that solve client's business challenges</h1>
 
 
-        <button class="bg-blue-600 mt-10 flex justify-center items-center  ">
-
-          <img src="/public/header/svg/shapes.svg" alt="shapes" class="transform -translate-y-2/3" />
-          <span class="p-5">
-            Request Quote
-          </span>
-          <img src="/public/section/arrow2.png" alt="arrow" class="arrow" />
-        </button>
+        <button class="flex  bg-blue-600 mt-10  " >
+        <span><img src="/public/section/Shapes (3).png" alt=""></span>
+        <div class="flex items-center gap-3 text-white  pt-5 pb-5 pr-5 " > Start a Project 
+        <span><img src="/public/services/right.png" alt="" class=""  ></span>
+      </div>
+      </button>
       </div>
 
       <div class="flex  gap-10 pt-20 pb-20 ">
@@ -173,7 +173,7 @@ import Button from '@/components/Button.vue';
           <b>Technical support</b>
 
           <p class="mb-5 mt-5">
-            We aim to attain the greatest satisfaction for our
+            We aim to attain the greatest <br> satisfaction for our
             clients and be one of the prominent names when it comes to world-class service
           </p>
 
@@ -182,10 +182,10 @@ import Button from '@/components/Button.vue';
         <div class="bg-white   p-16   ">
           <img src="/public/section/Icon Div (2).png" alt="" class=" mb-5">
 
-          <b>Technical support</b>
+          <b>Testing Management</b>
 
           <p class="mb-5 mt-5">
-            We aim to attain the greatest satisfaction for our
+            We aim to attain the greatest <br> satisfaction for our
             clients and be one of the prominent names when it comes to world-class service
           </p>
 
@@ -194,10 +194,10 @@ import Button from '@/components/Button.vue';
         <div class="bg-white  p-16   ">
           <img src="/public/section/Icon Div (3).png" alt="" class=" mb-5">
 
-          <b>Technical support</b>
+          <b>Development</b>
 
           <p class="mb-5 mt-5">
-            We aim to attain the greatest satisfaction for our
+            We aim to attain the greatest <br> satisfaction for our
             clients and be one of the prominent names when it comes to world-class service
           </p>
 
@@ -245,19 +245,22 @@ import Button from '@/components/Button.vue';
         <div class="flex w-3/6 m-10 bg-white ">
           <img src="/public/section/Group 1710.png" alt="">
 
-          <div class="   p-10  w-full ">
-            <h1 class="text-2xl pt-5 pb-10 pr-24 ">
+          <div class="   p-10 pt-5 w-full ">
+            <div class="flex justify-end transform -translate-y-9" ><img src="/public/Quote.png" alt=""></div>
+            <h1 class="text-2xl  pb-10 pr-24 ">
               Finsweet has been a wonderful partner to work with. I have been a customer now for the past
               few months now and I have had nothing but positive experiences!
             </h1>
-            <div class="flex gap-5 pb-2 ">
+            <div class="flex items-center gap-5 pb-2 ">
               <img src="/public/section/Image 3 (1).png" alt="">
               <div class="">
                 <b>Johnny Andro </b>
                 <p>Director.Company </p>
               </div>
-
-              <img src="/public/header/svg/logo-client2.svg" alt="" class="decoration-neutral-500">
+              <div class="flex justify-end w-full " >
+                
+              <img src="/public/LogoClent.png" alt="" class="decoration-neutral-500">
+            </div>
             </div>
           </div>
         </div>
@@ -312,33 +315,7 @@ header {
     margin-bottom: 32px;
   }
 
-  button {
-    padding: 20px 32px;
-    background-color: #444cfc;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-
-    &:hover {
-      background-color: #444dfcc6;
-    }
-
-    .shapes {
-      position: relative;
-
-      img {
-        position: absolute;
-        top: -20px;
-        left: -32px;
-      }
-    }
-
-    .arrow {
-      margin-left: 16px;
-    }
-  }
+  
 }
 
 .header-clients {
